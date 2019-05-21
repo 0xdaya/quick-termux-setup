@@ -1,3 +1,14 @@
-This is a quick script to install most used termux-packages
+# quick-termux-setup
 
-First it will update repositories, install oh-my-zsh and then install packages
+It is a bash script which will first setup oh-my-zsh and then install most used packages
+
+## Installation
+
+```
+1. git clone https://github.com/dayanandpathak/quick-termux-setup.git
+
+2. chmod 711 pkginstall
+   
+3. ./pkginstall
+
+```
