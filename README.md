@@ -9,6 +9,6 @@ It is a bash script which will first install most used packages and then finally
 ```
 2. wget https://raw.githubusercontent.com/dayanandpathak/quick-termux-setup/master/pkginstall
 
-3. bash pkginstall
+3. chmod +x pkginstall; ./pkginstall
 
 ```
