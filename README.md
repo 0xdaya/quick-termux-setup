@@ -1,6 +1,6 @@
 # quick-termux-setup
 
-It is a bash script which will first setup oh-my-zsh and then install most used packages
+It is a bash script which will first install most used packages and then finally turn your default bash shell into oh-my-zsh
 
 ## Usage:-
 
