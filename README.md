@@ -4,7 +4,11 @@ It is a bash script which will first setup oh-my-zsh and then install most used 
 
 ## Usage:-
 
+1. First you have to install ```wget```(to download the script) because the preinstalled version of ```wget``` in Termux doesn't support ssl therefore install fully featured GNU version by using ```apt install wget```
+
 ```
-wget https://raw.githubusercontent.com/dayanandpathak/quick-termux-setup/master/pkginstall | bash
+2. wget https://raw.githubusercontent.com/dayanandpathak/quick-termux-setup/master/pkginstall
+
+3. bash pkginstall
 
 ```
