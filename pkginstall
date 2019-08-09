@@ -5,8 +5,7 @@ apt update && apt upgrade -y
 
 echo "Installing all necessary packages...."
 
-apt install zsh git curl vim cowsay gdb man wget radare2 tree python python2 openssh irssi php clang apache2 coreutils binutils dnsutils nmap nano toilet figlet htop tmux screen -y
-
+apt install zsh git curl vim cowsay gdb man wget radare2 tree python python2 openssh irssi php clang apache2 coreutils binutils dnsutils nmap nano toilet figlet htop tmux screen file net-tools -y
 echo "Now installing oh-my-zsh"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
