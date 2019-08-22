@@ -17,7 +17,7 @@ fi" >> ~/.bashrc
 source ~/.bashrc
 
 echo "Installing ipython and youtube-dl using pip"
-pip install ipython
+pip install ipython youtube-dl
 
 echo "Done installing packages!"
 
