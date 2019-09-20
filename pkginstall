@@ -5,7 +5,7 @@ apt update && apt upgrade -y
 
 echo "Installing all necessary packages...."
 
-apt install zsh git curl vim cowsay gdb man wget radare2 tree psmisc python python2 openssh irssi clang coreutils binutils dnsutils nmap nano figlet htop tmux file net-tools gawk openssl-tool pwgen procps screenfetch make poppler xdg-open -y
+apt install zsh git curl vim cowsay gdb man wget radare2 tree psmisc python python2 openssh irssi clang coreutils binutils dnsutils nmap nano figlet htop tmux file net-tools gawk openssl-tool pwgen procps screenfetch make poppler termux-tools -y
 
 echo "Installing ipython and youtube-dl using pip"
 pip install ipython youtube-dl
