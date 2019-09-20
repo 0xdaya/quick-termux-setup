@@ -13,6 +13,9 @@ pip install ipython youtube-dl
 echo "Done installing packages!"
 echo "Now Adding extra-keys"
 mkdir $HOME/.termux/; echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> $HOME/.termux/termux.properties
+echo "Downloading powerline fonts!"
+curl -fsSl -o ~/.termux/font.ttf https://t.co/wz1dhhlSoD
+termux-reload-settings
 
 echo "Now installing oh-my-zsh"
 
