@@ -11,7 +11,7 @@ echo "Done installing packages!"
 echo "Now Adding extra-keys"
 mkdir $HOME/.termux/; echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> $HOME/.termux/termux.properties
 echo "Downloading powerline fonts!"
-curl -fsSl -o ~/.termux/font.ttf https://t.co/wz1dhhISoD
+curl -fsSL -o ~/.termux/font.ttf 'https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf'
 termux-reload-settings
 
 echo "Now installing oh-my-zsh"
