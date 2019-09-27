@@ -8,6 +8,11 @@ echo "Installing ipython and youtube-dl using pip"
 pip install ipython youtube-dl
 
 echo "Done installing packages!"
+mkdir ~/bin
+echo 'PATH="$HOME/bin:$PATH"' >> "$HOME/.zshrc"
+touch .vimrc .gdbinit
+echo -e "set disassembly-flavor intel" >> ~/.gdbinit
+echo -e "set number\nsyntax on" >> ~/.vimrc
 echo "Now Adding extra-keys"
 mkdir $HOME/.termux/; echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> $HOME/.termux/termux.properties
 echo "Downloading powerline fonts!"
