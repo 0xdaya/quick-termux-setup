@@ -2,8 +2,7 @@
 
 echo "Installing all necessary packages...."
 
-pkg install zsh git curl vim cowsay gdb man wget radare2 tree psmisc python python2 openssh irssi clang coreutils binutils dnsutils nmap nano figlet htop tmux file net-tools gawk openssl-tool pwgen procps screenfetch make poppler termux-tools -y
-
+pkg install zsh git curl vim cowsay gdb man wget radare2 tree psmisc python python2 openssh irssi coreutils binutils dnsutils nmap nano figlet htop tmux file net-tools gawk openssl-tool pwgen procps screenfetch poppler termux-tools build-essential -y
 echo "Installing ipython and youtube-dl using pip"
 pip install ipython youtube-dl
 
