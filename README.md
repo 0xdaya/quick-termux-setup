@@ -5,7 +5,7 @@ It is a bash script which will first install most used packages and then finally
 ## Usage:-
 
 ```
-1. curl -o pkginstall https://raw.githubusercontent.com/dayanandpathak/quick-termux-setup/master/pkginstall
+1. curl -o pkginstall https://raw.githubusercontent.com/0xdaya/quick-termux-setup/master/pkginstall
 
 2. chmod 700 pkginstall; ./pkginstall
 ```
